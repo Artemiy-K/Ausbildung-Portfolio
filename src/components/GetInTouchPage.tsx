@@ -97,7 +97,7 @@ function GetInTouchPage() {
                   </g>{" "}
                 </g>
               </svg>
-              <span>Germany</span>
+              <span>Germany, Hamburg</span>
             </div>
           </div>
         </div>

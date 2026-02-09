@@ -18,7 +18,7 @@ const ProjectCard = ({ title, description, src }: ProjectCardProps) => {
         <span className="cursor-default font-bold text-2xl">{title}</span>
         <span className="cursor-default text-white/80 text-base">
           {description}
-          <p className="text-white">(in progress)</p>
+          <p className="text-white font-bold">(not ready yet)</p>
         </span>
         <div className="flex gap-2 cursor-default">
           <TechStack skills={usedTechStack} reduced />

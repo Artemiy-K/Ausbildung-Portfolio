@@ -34,12 +34,19 @@ const AboutMe = () => {
         <div className="bg-[#000000]/50 px-10  py-7 font-mono  text-red-300/60 border-3 border-red-900/40 text-2xl w-[680px] rounded-xl leading-loose shadow-xl">
           const developer = &#x7B; <br />
           <span className="inline-block pl-7">
-            name: &apos;{developer.name}&apos;,
+            name:{" "}
+            <span className="text-[#CE9F4E]">&apos;{developer.name}&apos;</span>
+            ,
             <br />
-            role: &apos;{developer.role}&apos;,
+            role:{" "}
+            <span className="text-[#CE9F4E]">&apos;{developer.role}&apos;</span>
+            ,
             <br />
-            passion: 'Gaining front-end skills through Ausbildung for
-            interactive web apps.'
+            passion:{" "}
+            <span className="text-[#CE9F4E]">
+              'Gaining front-end skills through Ausbildung for interactive web
+              apps.'
+            </span>
           </span>
           &#125;;
         </div>
