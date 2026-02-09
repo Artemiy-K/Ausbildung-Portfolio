@@ -119,7 +119,7 @@ function GetInTouchPage() {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:5173/thankyouPage"
+            value="https://ausbildung-portfolio.vercel.app/thankyouPage"
           ></input>{" "}
           <textarea
             name="name"
