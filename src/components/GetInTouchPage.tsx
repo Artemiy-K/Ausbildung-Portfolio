@@ -116,11 +116,7 @@ function GetInTouchPage() {
           />{" "}
           <input type="hidden" name="_next" value="/" />{" "}
           <input type="hidden" name="_captcha" value="false" />{" "}
-          <input
-            type="hidden"
-            name="_next"
-            value="https://ausbildung-portfolio.vercel.app/thankyouPage"
-          ></input>{" "}
+          <input type="hidden" name="_next" value="/thankyouPage"></input>{" "}
           <textarea
             name="name"
             required
